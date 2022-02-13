@@ -1,0 +1,22 @@
+{
+    "name": "maham/15_autoloading",
+    "autoload": {
+        "psr-4": {
+            "Maham\\15Autoloading\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammed El Hassan",
+            "email": "mohammedelhassan2001@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload":{
+        "psr-4": {
+            "app\\":"./app"
+        }
+    }
+}
